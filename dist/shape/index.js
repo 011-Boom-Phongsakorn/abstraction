@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Circle_1 = require("./Circle");
+const Rectangle_1 = require("./Rectangle");
+const rectangle = new Rectangle_1.Rectangle(10, 10);
+console.log(rectangle.getArea());
+console.log(rectangle.getPerimeter());
+const circle = new Circle_1.Circle(10);
+console.log(circle.getArea());
+console.log(circle.getPerimeter());
