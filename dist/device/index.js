@@ -1,0 +1,14 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Radio_1 = require("./Radio");
+const Tv_1 = require("./Tv");
+const tv = new Tv_1.Tv();
+tv.turnOn();
+tv.turnOff();
+tv.turnOff();
+const radio = new Radio_1.Radio();
+console.log(radio.status);
+radio.status = 'ON';
+console.log(radio.status);
+radio.status = 'OFF';
+console.log(radio.status);

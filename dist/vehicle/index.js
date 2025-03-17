@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Car_1 = require("./Car");
+const Motorcycle_1 = require("./Motorcycle");
+const motorcycle = new Motorcycle_1.Motorcycle("W", "V8", 0);
+motorcycle.fly();
+motorcycle.isElectrical(false);
+console.log("เร่งสปีดการบินเป็น " + motorcycle.flybleSpeed(110) + " km /h");
+const car = new Car_1.Car("Lamborghini", "V12", 0);
+car.fly();
+car.isElectrical(false);
+console.log("เร่งสปีดการบินเป็น " + car.flybleSpeed(285) + " km /h");
